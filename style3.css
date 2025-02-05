@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;/* This is used bcoz the align items element was not working*/
+    background-image: url(Pictures/login_back2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_out{
+    display: inline-block;
+    width: 400px;
+    height: 350px;
+    border-radius: 5px 5px 5px 5px ;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);/* This is the differential factor used first time, box blur effect*/
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#user,#pass{
+    margin-left: 37px;
+    margin-bottom: 10px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    height: 40px;
+    width: 320px;
+    padding-left: 10px;
+}
+
+
+.box2{
+    margin-left: 50px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#forget{
+    margin-left: 105px;
+    color: black;
+    text-decoration: solid;
+}
+
+button{
+    margin-left: 43px;
+    font-size: 16px;
+    background-color: #EAEAEA;
+    color: black;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    width: 320px;
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background-color 0.7s ease, transform 0.8s ease;
+}
+
+button:hover{
+    background-color: #45a049; 
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.register{
+    display: flex;
+    margin-left: 100px;
+}
+
+#reg{
+    color: black;
+    text-decoration: solid;
+    font-weight: 700;
+}
+
+input::placeholder{
+    padding-left: 15px;
+}
+
+a:hover{
+    cursor: pointer;
+}
